@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food and Health</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Food & Health</h1>
+    <nav>
+      <ul>
+        <li><a href="#nutrition">Nutrition</a></li>
+        <li><a href="#health-tips">Health Tips</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="hero">
+    <h2>Welcome to Food and Health</h2>
+    <p>Explore how a balanced diet and healthy lifestyle can improve your well-being.</p>
+  </div>
+
+  
+  <div id="content">
+    <div id="nutrition">
+  <fieldset>
+    <legend>Nutrition</legend>
+    <p>Eating a balanced diet is essential for your overall health. Here's a quick guide to nutrition:</p>
+    <ol> 
+      <li><strong>Carbohydrates:</strong> Provide energy for your body.</li>
+      <li><strong>Proteins:</strong> Essential for building and repairing muscles.</li>
+      <li><strong>Fats:</strong> Help with brain function and cell repair.</li>
+    </ol>
+  </fieldset>
+</div>
+
+
+    <div class="box" id="health-tips">
+      <fieldset>
+        <legend>Health Tips</legend>
+        <p>To maintain good health, consider these daily habits:</p>
+        <ul>
+          <li>Drink plenty of water.</li>
+          <li>Eat colorful fruits and vegetables.</li>
+          <li>Exercise regularly for at least 30 minutes.</li>
+          <li>Get 7-9 hours of sleep each night.</li>
+        </ul>
+      </fieldset>
+    </div>
+
+    <div class="box" id="contact">
+      <fieldset>
+        <legend>Contact Us</legend>
+        <form id="contactForm">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name">
+
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email">
+
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+        <div id="formMessage"></div>
+      </fieldset>
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
